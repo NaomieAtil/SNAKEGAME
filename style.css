@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+body {
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ecf0f1;
+}
+
+.logo1 {
+    font-family: 'Kavoon', cursive;
+    font-size: 50px;
+    color: coral;
+    text-align: center;
+    padding-bottom: .25rem;
+    text-decoration: none;
+}
+
+.logo1:hover {
+    color: greenyellow;
+    transform: scale(1.5);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 5%;
+    border-bottom: 0;
+    padding-bottom: .0em;
+    text-decoration: none;
+}
